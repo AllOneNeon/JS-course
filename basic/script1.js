@@ -55,10 +55,29 @@ let num = 50;
 //     num++;
 // }
 
-for (let i = 1; i <= 8; i++) {
-    if (i === 6) {
-        //break;
-        continue;
+// for (let i = 1; i <= 8; i++) {
+//     if (i === 6) {
+//         //break;
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+// *******
+
+let result = '';
+const lengthh = 7;
+
+for (let i = 1; i < lengthh; i++) {
+    for (let j = 0; j < i; j++){
+        result += '*';
     }
-    console.log(i);
+    result += '\n';
 }
+console.log(result);
